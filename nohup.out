@@ -1,0 +1,1229 @@
+  File "main.py", line 230
+    def eval(self, file_name = '001', style_name = '001', num):
+            ^
+SyntaxError: non-default argument follows default argument
+  File "main.py", line 230
+    def eval(self, file_name = '001', style_name = '001', num):
+            ^
+SyntaxError: non-default argument follows default argument
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+2021-04-01 20:15:23.259747: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-04-01 20:15:23.259747: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-04-01 20:15:23.259785: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-04-01 20:15:23.506242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:15:23.506355: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:15:23.506416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:15:23.509744: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:15:23.509865: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:15:23.509924: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:15:23.513160: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:15:23.513282: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:15:23.513342: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:15:23.516611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:15:23.516734: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:15:23.516795: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:15:23.520089: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:15:23.520211: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:15:23.520270: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:15:23.523528: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:15:23.523648: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:15:23.523706: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:15:23.588785: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:23.588807: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:23.588807: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:23.796431: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:15:23.796431: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:15:23.796482: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:15:23.912947: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:15:23.912947: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:15:23.912947: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:15:23.983188: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:15:23.983195: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:15:23.983200: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:15:24.185573: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:15:24.185567: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:15:24.185568: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:15:24.309944: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:15:24.309945: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:15:24.309961: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:15:24.670820: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:15:24.670820: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:15:24.670820: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:15:24.715816: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:15:24.715873: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:15:24.715934: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:15:24.729861: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2021-04-01 20:15:24.729861: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2021-04-01 20:15:24.729861: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2021-04-01 20:15:24.926563: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2800150000 Hz
+2021-04-01 20:15:24.926563: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2800150000 Hz
+2021-04-01 20:15:24.926563: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2800150000 Hz
+2021-04-01 20:15:24.929340: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561662dd0f80 executing computations on platform Host. Devices:
+2021-04-01 20:15:24.929620: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5600770bda30 executing computations on platform Host. Devices:
+2021-04-01 20:15:24.929741: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d4add79390 executing computations on platform Host. Devices:
+2021-04-01 20:15:24.929790: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2021-04-01 20:15:24.929793: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2021-04-01 20:15:24.929796: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+Using TensorFlow backend.
+2021-04-01 20:15:25.622199: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-04-01 20:15:25.977882: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:15:25.986712: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:15:25.995168: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:15:26.001831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:15:26.005793: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:15:26.009694: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:15:26.009968: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:26.011468: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:15:26.012590: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:15:26.012876: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:15:26.014598: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:15:26.015883: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:15:26.019846: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:15:26.307127: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:15:26.307582: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2021-04-01 20:15:26.318126: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2800150000 Hz
+2021-04-01 20:15:26.320890: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f17f43b260 executing computations on platform Host. Devices:
+2021-04-01 20:15:26.320950: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2021-04-01 20:15:27.573859: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:15:27.573913: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:15:27.576158: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:15:27.579233: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:15:27.579289: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:15:27.581191: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:15:27.583467: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:15:27.583528: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:15:27.588898: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:15:27.665688: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:15:27.665798: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:15:27.668063: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:15:27.670867: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:15:27.671039: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:15:27.672986: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:15:27.676235: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:15:27.676317: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:15:27.676348: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:27.676400: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:15:27.676432: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:15:27.676461: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:15:27.676463: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:27.676489: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:15:27.676518: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:15:27.676526: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:15:27.676547: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:15:27.676596: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:15:27.676656: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:15:27.676704: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:15:27.676762: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:15:27.676822: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:15:27.678302: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:15:27.678408: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:27.678478: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:15:27.678530: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:15:27.678573: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:15:27.678616: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:15:27.678658: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:15:27.678700: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:15:27.733141: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:15:27.735425: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:15:27.735471: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:15:27.751198: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:27.751274: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:27.751280: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:27.871110: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-01 20:15:27.871191: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 1 2 3 4 5 
+2021-04-01 20:15:27.871214: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N Y Y Y N N 
+2021-04-01 20:15:27.871207: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-01 20:15:27.871226: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 1:   Y N Y Y N N 
+2021-04-01 20:15:27.871239: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 2:   Y Y N Y N N 
+2021-04-01 20:15:27.871242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 1 2 3 4 5 
+2021-04-01 20:15:27.871249: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 3:   Y Y Y N N N 
+2021-04-01 20:15:27.871256: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N Y Y Y N N 
+2021-04-01 20:15:27.871258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 4:   N N N N N Y 
+2021-04-01 20:15:27.871268: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 5:   N N N N Y N 
+2021-04-01 20:15:27.871271: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 1:   Y N Y Y N N 
+2021-04-01 20:15:27.871264: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-01 20:15:27.871282: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 2:   Y Y N Y N N 
+2021-04-01 20:15:27.871294: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 3:   Y Y Y N N N 
+2021-04-01 20:15:27.871299: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 1 2 3 4 5 
+2021-04-01 20:15:27.871303: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 4:   N N N N N Y 
+2021-04-01 20:15:27.871314: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 5:   N N N N Y N 
+2021-04-01 20:15:27.871313: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N Y Y Y N N 
+2021-04-01 20:15:27.871325: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 1:   Y N Y Y N N 
+2021-04-01 20:15:27.871336: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 2:   Y Y N Y N N 
+2021-04-01 20:15:27.871348: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 3:   Y Y Y N N N 
+2021-04-01 20:15:27.871359: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 4:   N N N N N Y 
+2021-04-01 20:15:27.871369: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 5:   N N N N Y N 
+2021-04-01 20:15:27.909491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11350 MB memory) -> physical GPU (device: 0, name: Tesla K40c, pci bus id: 0000:04:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.909536: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11350 MB memory) -> physical GPU (device: 0, name: Tesla K40c, pci bus id: 0000:04:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.910261: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11350 MB memory) -> physical GPU (device: 0, name: Tesla K40c, pci bus id: 0000:04:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.918627: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11350 MB memory) -> physical GPU (device: 1, name: Tesla K40c, pci bus id: 0000:05:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.918677: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11350 MB memory) -> physical GPU (device: 1, name: Tesla K40c, pci bus id: 0000:05:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.919881: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11350 MB memory) -> physical GPU (device: 1, name: Tesla K40c, pci bus id: 0000:05:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.927160: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 9941 MB memory) -> physical GPU (device: 2, name: Tesla K40c, pci bus id: 0000:08:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.927221: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 9941 MB memory) -> physical GPU (device: 2, name: Tesla K40c, pci bus id: 0000:08:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.929022: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 9941 MB memory) -> physical GPU (device: 2, name: Tesla K40c, pci bus id: 0000:08:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.936298: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11350 MB memory) -> physical GPU (device: 3, name: Tesla K40c, pci bus id: 0000:09:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.936556: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11350 MB memory) -> physical GPU (device: 3, name: Tesla K40c, pci bus id: 0000:09:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.938841: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11350 MB memory) -> physical GPU (device: 3, name: Tesla K40c, pci bus id: 0000:09:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.948048: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:4 with 11408 MB memory) -> physical GPU (device: 4, name: Tesla K40c, pci bus id: 0000:89:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.948098: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:4 with 11408 MB memory) -> physical GPU (device: 4, name: Tesla K40c, pci bus id: 0000:89:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.951922: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:4 with 11408 MB memory) -> physical GPU (device: 4, name: Tesla K40c, pci bus id: 0000:89:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.959933: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:5 with 11410 MB memory) -> physical GPU (device: 5, name: Tesla K40c, pci bus id: 0000:8a:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.959954: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:5 with 11410 MB memory) -> physical GPU (device: 5, name: Tesla K40c, pci bus id: 0000:8a:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.960836: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:5 with 11410 MB memory) -> physical GPU (device: 5, name: Tesla K40c, pci bus id: 0000:8a:00.0, compute capability: 3.5)
+2021-04-01 20:15:27.963821: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d4afca7ad0 executing computations on platform CUDA. Devices:
+2021-04-01 20:15:27.963855: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.963868: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.963878: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.963887: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (3): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.963911: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (4): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.963922: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (5): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966058: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561664cffcc0 executing computations on platform CUDA. Devices:
+2021-04-01 20:15:27.966099: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966125: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966146: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966167: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (3): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966189: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (4): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966213: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (5): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966219: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x560078febda0 executing computations on platform CUDA. Devices:
+2021-04-01 20:15:27.966269: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966283: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966294: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966309: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (3): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966320: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (4): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:27.966331: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (5): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:28.101239: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 11.08G (11902091264 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.107648: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 11.08G (11902091264 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.126598: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 9.98G (10711881728 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.132539: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 9.98G (10711881728 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.151012: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 8.98G (9640693760 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.157477: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 8.98G (9640693760 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.175491: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 8.08G (8676624384 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.181157: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 8.08G (8676624384 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.199615: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 7.27G (7808961536 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.205142: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 7.27G (7808961536 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.230135: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 6.54G (7028065280 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.235752: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 6.54G (7028065280 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.260802: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 5.89G (6325258752 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.266561: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 5.89G (6325258752 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.292693: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 5.30G (5692732928 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.298412: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 5.30G (5692732928 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.320736: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 4.77G (5123459584 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.326467: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 4.77G (5123459584 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.345425: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 4.29G (4611113472 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.351274: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 4.29G (4611113472 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.370469: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 3.86G (4150001920 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.376178: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 3.86G (4150001920 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.395854: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 3.48G (3735001600 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.401601: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 3.48G (3735001600 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.421163: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 3.13G (3361501440 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.426968: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 3.13G (3361501440 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.446462: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.82G (3025351168 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.452252: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.82G (3025351168 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.473417: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.54G (2722816000 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.479144: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.54G (2722816000 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.499702: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.28G (2450534400 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.505661: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.28G (2450534400 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.524909: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.05G (2205480960 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.530660: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.05G (2205480960 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.549333: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.85G (1984932864 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.555179: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.85G (1984932864 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.573992: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.66G (1786439680 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.579899: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.66G (1786439680 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.597855: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.50G (1607795712 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.604147: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.50G (1607795712 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.622857: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.35G (1447016192 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.628934: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.35G (1447016192 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.648394: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.21G (1302314496 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.654778: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.21G (1302314496 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.673340: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.09G (1172083200 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.679627: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.09G (1172083200 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.698426: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1006.01M (1054874880 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.704880: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1006.01M (1054874880 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.723963: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 905.41M (949387520 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.730553: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 905.41M (949387520 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.749115: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 814.87M (854448896 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.755390: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 814.87M (854448896 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.774396: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 733.38M (769004032 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.780905: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 733.38M (769004032 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.799852: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 660.04M (692103680 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.806190: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 660.04M (692103680 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.826274: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 594.04M (622893312 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.832569: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 594.04M (622893312 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.845772: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 534.63M (560604160 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.858044: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 481.17M (504543744 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.870508: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 433.05M (454089472 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.882949: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 389.75M (408680704 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.895466: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 350.77M (367812608 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.908620: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 315.70M (331031552 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.920788: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 284.13M (297928448 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.932969: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 255.71M (268135680 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.945226: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 230.14M (241322240 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.957742: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 207.13M (217190144 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.970219: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 186.42M (195471360 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.982437: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 167.77M (175924224 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:28.995290: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 151.00M (158331904 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.007729: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 135.90M (142498816 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.020646: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 122.31M (128249088 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.033049: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 110.08M (115424256 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.045412: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 99.07M (103881984 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.057746: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 89.16M (93494016 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.070049: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 80.25M (84144640 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.082836: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 72.22M (75730176 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.096205: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 65.00M (68157184 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.108767: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 58.50M (61341696 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.160907: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:15:29.162045: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:15:29.163128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:15:29.164249: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:15:29.165329: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:15:29.166408: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:15:29.166516: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:29.166558: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:15:29.166598: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:15:29.166632: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:15:29.166660: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:15:29.166689: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:15:29.166719: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:15:29.178771: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:15:29.178828: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:15:29.185073: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-01 20:15:29.185100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 1 2 3 4 5 
+2021-04-01 20:15:29.185113: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N Y Y Y N N 
+2021-04-01 20:15:29.185123: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 1:   Y N Y Y N N 
+2021-04-01 20:15:29.185132: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 2:   Y Y N Y N N 
+2021-04-01 20:15:29.185143: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 3:   Y Y Y N N N 
+2021-04-01 20:15:29.185154: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 4:   N N N N N Y 
+2021-04-01 20:15:29.185165: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 5:   N N N N Y N 
+2021-04-01 20:15:29.193040: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 1 MB memory) -> physical GPU (device: 0, name: Tesla K40c, pci bus id: 0000:04:00.0, compute capability: 3.5)
+2021-04-01 20:15:29.195545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11343 MB memory) -> physical GPU (device: 1, name: Tesla K40c, pci bus id: 0000:05:00.0, compute capability: 3.5)
+2021-04-01 20:15:29.197799: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 9933 MB memory) -> physical GPU (device: 2, name: Tesla K40c, pci bus id: 0000:08:00.0, compute capability: 3.5)
+2021-04-01 20:15:29.200190: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11343 MB memory) -> physical GPU (device: 3, name: Tesla K40c, pci bus id: 0000:09:00.0, compute capability: 3.5)
+2021-04-01 20:15:29.202745: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:4 with 11345 MB memory) -> physical GPU (device: 4, name: Tesla K40c, pci bus id: 0000:89:00.0, compute capability: 3.5)
+2021-04-01 20:15:29.205181: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:5 with 11345 MB memory) -> physical GPU (device: 5, name: Tesla K40c, pci bus id: 0000:8a:00.0, compute capability: 3.5)
+2021-04-01 20:15:29.208376: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f181369860 executing computations on platform CUDA. Devices:
+2021-04-01 20:15:29.208403: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:29.208415: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:29.208425: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:29.208433: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (3): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:29.208441: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (4): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:29.208451: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (5): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:15:29.226395: E tensorflow/stream_executor/cuda/cuda_driver.cc:790] could not allocate CUDA stream for context 0x55f17f4e0c00: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.226464: I tensorflow/stream_executor/stream_executor_pimpl.cc:736] failed to allocate stream; live stream count: 5
+2021-04-01 20:15:29.226481: E tensorflow/stream_executor/stream.cc:304] failed to allocate stream during initialization
+2021-04-01 20:15:29.237564: E tensorflow/stream_executor/cuda/cuda_driver.cc:790] could not allocate CUDA stream for context 0x55f17f4e0c00: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.237589: I tensorflow/stream_executor/stream_executor_pimpl.cc:736] failed to allocate stream; live stream count: 5
+2021-04-01 20:15:29.237600: E tensorflow/stream_executor/stream.cc:304] failed to allocate stream during initialization
+2021-04-01 20:15:29.248865: E tensorflow/stream_executor/cuda/cuda_driver.cc:790] could not allocate CUDA stream for context 0x55f17f4e0c00: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.248900: I tensorflow/stream_executor/stream_executor_pimpl.cc:736] failed to allocate stream; live stream count: 5
+2021-04-01 20:15:29.248911: E tensorflow/stream_executor/stream.cc:304] failed to allocate stream during initialization
+2021-04-01 20:15:29.260106: E tensorflow/stream_executor/cuda/cuda_driver.cc:790] could not allocate CUDA stream for context 0x55f17f4e0c00: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.260134: I tensorflow/stream_executor/stream_executor_pimpl.cc:736] failed to allocate stream; live stream count: 5
+2021-04-01 20:15:29.260144: E tensorflow/stream_executor/stream.cc:304] failed to allocate stream during initialization
+2021-04-01 20:15:29.271364: E tensorflow/stream_executor/cuda/cuda_driver.cc:790] could not allocate CUDA stream for context 0x55f17f4e0c00: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.271404: I tensorflow/stream_executor/stream_executor_pimpl.cc:736] failed to allocate stream; live stream count: 5
+2021-04-01 20:15:29.271416: E tensorflow/stream_executor/stream.cc:304] failed to allocate stream during initialization
+2021-04-01 20:15:29.282508: E tensorflow/stream_executor/cuda/cuda_driver.cc:790] could not allocate CUDA stream for context 0x55f17f4e0c00: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.282543: I tensorflow/stream_executor/stream_executor_pimpl.cc:736] failed to allocate stream; live stream count: 5
+2021-04-01 20:15:29.282554: E tensorflow/stream_executor/stream.cc:304] failed to allocate stream during initialization
+2021-04-01 20:15:29.304010: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.88M (1966080 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.315781: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.69M (1769472 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.327947: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.52M (1592576 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.339557: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.37M (1433344 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.351572: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.23M (1290240 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.363397: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1.11M (1161216 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.375849: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 1020.8K (1045248 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.388205: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 918.8K (940800 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.400371: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 827.0K (846848 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.412164: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 744.5K (762368 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.423841: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 670.2K (686336 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.435718: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 603.2K (617728 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.447840: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 543.0K (556032 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.460979: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 488.8K (500480 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.474530: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 440.0K (450560 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.487513: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 396.0K (405504 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.500575: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 356.5K (365056 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.513804: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 321.0K (328704 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.526989: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 289.0K (295936 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.540150: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 260.2K (266496 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.553130: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 234.2K (239872 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.566122: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 211.0K (216064 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.589640: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 190.0K (194560 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.613821: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 171.0K (175104 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.615092: F ./tensorflow/core/kernels/random_op_gpu.h:227] Non-OK-status: GpuLaunchKernel(FillPhiloxRandomKernelLaunch<Distribution>, num_blocks, block_size, 0, d.stream(), gen, data, size, dist) status: Internal: out of memory
+2021-04-01 20:15:29.627019: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 154.0K (157696 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.639997: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 138.8K (142080 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.653166: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 125.0K (128000 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.666351: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 112.5K (115200 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.679368: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 101.2K (103680 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.692477: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 91.2K (93440 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.705590: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 82.2K (84224 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.718610: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 74.2K (76032 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.731710: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 67.0K (68608 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.744906: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 60.5K (61952 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.757987: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 54.5K (55808 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.771584: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 49.2K (50432 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.791533: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 44.5K (45568 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.798272: F ./tensorflow/core/kernels/random_op_gpu.h:227] Non-OK-status: GpuLaunchKernel(FillPhiloxRandomKernelLaunch<Distribution>, num_blocks, block_size, 0, d.stream(), gen, data, size, dist) status: Internal: out of memory
+2021-04-01 20:15:29.812053: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 40.2K (41216 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.830155: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 36.2K (37120 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.853696: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 32.8K (33536 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.882573: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 29.5K (30208 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.889329: F ./tensorflow/core/kernels/random_op_gpu.h:227] Non-OK-status: GpuLaunchKernel(FillPhiloxRandomKernelLaunch<Distribution>, num_blocks, block_size, 0, d.stream(), gen, data, size, dist) status: Internal: out of memory
+2021-04-01 20:15:29.906969: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 26.8K (27392 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.920155: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 24.2K (24832 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.933232: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 22.0K (22528 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.946537: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 20.0K (20480 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.959613: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 18.0K (18432 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.972713: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 16.2K (16640 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:29.985772: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 14.8K (15104 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.000320: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 13.5K (13824 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.014781: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 12.2K (12544 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.028848: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 11.2K (11520 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.043425: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 10.2K (10496 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.058112: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 9.2K (9472 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.072395: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 8.5K (8704 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.091173: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 7.8K (7936 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.108188: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 7.0K (7168 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.122316: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 6.5K (6656 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.136358: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 6.0K (6144 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.150535: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 5.5K (5632 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.164657: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 5.0K (5120 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.178662: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 4.5K (4608 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.192826: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 4.2K (4352 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.206812: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 4.0K (4096 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.220794: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 3.8K (3840 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.234748: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 3.5K (3584 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.248608: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 3.2K (3328 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.262712: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 3.0K (3072 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.278075: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.8K (2816 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.293204: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.5K (2560 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.308141: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.323205: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.338978: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.355338: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.371225: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.387175: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.402894: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.418847: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.434696: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.450520: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.466544: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.482169: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.498003: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.513743: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.529980: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.546285: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.562104: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.580540: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.605309: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.628184: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.649373: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.666451: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.682286: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.699350: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.715095: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.731684: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.747466: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.762585: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.778101: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.793748: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.809219: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.825105: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.840006: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.854887: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.870227: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.885109: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.900409: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.915275: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.930423: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.945311: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.960343: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.975143: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:30.990044: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.005035: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.019891: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.035011: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.049373: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.063731: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.078214: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.092290: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.106194: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.121795: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.135400: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.148897: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.162318: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.175737: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.189164: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.202808: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.216277: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.229659: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.243076: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.256698: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.270251: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.283807: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.297378: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.310864: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.325545: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.339038: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.353743: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.367317: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.381950: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.395602: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.409162: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.423891: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.437466: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.452419: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.466028: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.479801: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.494356: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.507899: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.522685: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.536422: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.550104: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.565087: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.578963: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.592624: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.607827: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.621512: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.636530: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.650420: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.664083: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.679137: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.692848: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.707782: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.721339: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.734784: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.749508: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.762934: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.777780: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.791228: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.805913: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.819923: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.833740: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.848921: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.862561: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.876173: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.891314: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.904676: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.918391: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.931922: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.945284: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.959054: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.972606: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.986104: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:31.999555: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.013203: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.026757: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.040188: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.053653: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.067235: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.081289: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.094799: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.108335: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.122247: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.135906: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.149902: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.163380: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.176775: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.190198: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.203723: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.217274: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.230607: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.244048: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.258699: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.273410: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.287237: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.300751: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.314705: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.328083: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.341363: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.355322: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.368739: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.382623: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.396025: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.409475: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.423032: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.436489: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.449893: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.463459: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.477040: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.490864: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.504363: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.517771: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.531309: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.544759: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.558631: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.572147: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.585706: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.599691: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.613321: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.627329: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.641203: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.654747: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.668541: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.682168: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.696259: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.709914: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.723585: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.737186: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.750968: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.765905: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.779605: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.793511: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.807843: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.822454: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-04-01 20:15:32.837244: I tensorflow/stream_executor/cuda/cuda_driver.cc:830] failed to allocate 2.2K (2304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+Traceback (most recent call last):
+  File "main.py", line 282, in <module>
+    model = autoencoder('/home/him030107/pix2pix', img_layer = 3, layers = 4, latent = 256)
+  File "main.py", line 46, in __init__
+    self.Enc, self.Dec, self.disc = self.model_load()
+  File "main.py", line 274, in model_load
+    styleE = self.encoder()
+  File "main.py", line 133, in encoder
+    x = conv2D(x, filters = filter, kernel_size = (1,1))
+  File "main.py", line 25, in conv2D
+    kernel_initializer = 'he_normal', bias_initializer = 'zeros')(layer)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 817, in __call__
+    self._maybe_build(inputs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 2141, in _maybe_build
+    self.build(input_shapes)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/layers/convolutional.py", line 165, in build
+    dtype=self.dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 522, in add_weight
+    aggregation=aggregation)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/training/tracking/base.py", line 744, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer_utils.py", line 139, in make_variable
+    shape=variable_shape if variable_shape else None)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 258, in __call__
+    return cls._variable_v1_call(*args, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 219, in _variable_v1_call
+    shape=shape)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 197, in <lambda>
+    previous_getter = lambda **kwargs: default_variable_creator(None, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variable_scope.py", line 2507, in default_variable_creator
+    shape=shape)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 262, in __call__
+    return super(VariableMetaclass, cls).__call__(*args, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py", line 1406, in __init__
+    distribute_strategy=distribute_strategy)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py", line 1537, in _init_from_args
+    initial_value() if init_from_fn else initial_value,
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer_utils.py", line 119, in <lambda>
+    init_val = lambda: initializer(shape, dtype=dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops_v2.py", line 431, in __call__
+    return self._random_generator.truncated_normal(shape, 0.0, stddev, dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops_v2.py", line 809, in truncated_normal
+    shape=shape, mean=mean, stddev=stddev, dtype=dtype, seed=self.seed)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/random_ops.py", line 175, in truncated_normal
+    shape_tensor, dtype, seed=seed1, seed2=seed2)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/gen_random_ops.py", line 1006, in truncated_normal
+    _six.raise_from(_core._status_to_exception(e.code, message), None)
+  File "<string>", line 3, in raise_from
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Value for attr 'T' of float is not in the list of allowed values: int32, int64
+	; NodeDef: {{node TruncatedNormal}}; Op<name=TruncatedNormal; signature=shape:T -> output:dtype; attr=seed:int,default=0; attr=seed2:int,default=0; attr=dtype:type,allowed=[DT_HALF, DT_BFLOAT16, DT_FLOAT, DT_DOUBLE]; attr=T:type,allowed=[DT_INT32, DT_INT64]; is_stateful=true> [Op:TruncatedNormal]
+2021-04-01 20:15:42.088745: I tensorflow/stream_executor/stream.cc:5296] [stream=0x55f1813706a0,impl=0x55f181382aa0] Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088808: W tensorflow/stream_executor/stream.cc:274] Error blocking host until done in stream destructor: Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088830: I tensorflow/stream_executor/stream.cc:5296] [stream=0x55f1813712c0,impl=0x55f181369830] Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088842: W tensorflow/stream_executor/stream.cc:274] Error blocking host until done in stream destructor: Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088855: I tensorflow/stream_executor/stream.cc:5296] [stream=0x55f181371ed0,impl=0x55f181369650] Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088866: W tensorflow/stream_executor/stream.cc:274] Error blocking host until done in stream destructor: Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088897: I tensorflow/stream_executor/stream.cc:5296] [stream=0x55f181372010,impl=0x55f1813695c0] Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088910: W tensorflow/stream_executor/stream.cc:274] Error blocking host until done in stream destructor: Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088923: I tensorflow/stream_executor/stream.cc:5296] [stream=0x55f18136fa60,impl=0x55f1813827a0] Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088938: W tensorflow/stream_executor/stream.cc:274] Error blocking host until done in stream destructor: Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088951: I tensorflow/stream_executor/stream.cc:5296] [stream=0x55f1813819f0,impl=0x55f181369590] Internal: stream did not block host until done; was already in an error state
+2021-04-01 20:15:42.088962: W tensorflow/stream_executor/stream.cc:274] Error blocking host until done in stream destructor: Internal: stream did not block host until done; was already in an error state
+Using TensorFlow backend.
+2021-04-01 20:18:25.378025: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-04-01 20:18:25.542745: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:18:25.544001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:18:25.545142: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:18:25.546308: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:18:25.547481: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:18:25.548642: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:18:25.548873: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:18:25.550709: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:18:25.551849: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:18:25.552133: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:18:25.553866: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:18:25.555164: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:18:25.559233: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:18:25.573057: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:18:25.573437: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2021-04-01 20:18:25.582694: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2800150000 Hz
+2021-04-01 20:18:25.585237: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561a3a0e2800 executing computations on platform Host. Devices:
+2021-04-01 20:18:25.585277: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2021-04-01 20:18:26.374215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:18:26.375534: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:18:26.376703: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:18:26.377904: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:18:26.379118: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:18:26.380315: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:18:26.380391: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:18:26.380418: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:18:26.380443: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:18:26.380468: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:18:26.380492: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:18:26.380516: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:18:26.380540: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:18:26.394679: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:18:26.394791: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:18:26.402198: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-01 20:18:26.402227: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 1 2 3 4 5 
+2021-04-01 20:18:26.402239: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N Y Y Y N N 
+2021-04-01 20:18:26.402249: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 1:   Y N Y Y N N 
+2021-04-01 20:18:26.402258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 2:   Y Y N Y N N 
+2021-04-01 20:18:26.402267: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 3:   Y Y Y N N N 
+2021-04-01 20:18:26.402276: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 4:   N N N N N Y 
+2021-04-01 20:18:26.402285: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 5:   N N N N Y N 
+2021-04-01 20:18:26.412182: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11531 MB memory) -> physical GPU (device: 0, name: Tesla K40c, pci bus id: 0000:04:00.0, compute capability: 3.5)
+2021-04-01 20:18:26.414925: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11531 MB memory) -> physical GPU (device: 1, name: Tesla K40c, pci bus id: 0000:05:00.0, compute capability: 3.5)
+2021-04-01 20:18:26.417379: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 10122 MB memory) -> physical GPU (device: 2, name: Tesla K40c, pci bus id: 0000:08:00.0, compute capability: 3.5)
+2021-04-01 20:18:26.420021: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11531 MB memory) -> physical GPU (device: 3, name: Tesla K40c, pci bus id: 0000:09:00.0, compute capability: 3.5)
+2021-04-01 20:18:26.422980: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:4 with 11531 MB memory) -> physical GPU (device: 4, name: Tesla K40c, pci bus id: 0000:89:00.0, compute capability: 3.5)
+2021-04-01 20:18:26.425590: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:5 with 11531 MB memory) -> physical GPU (device: 5, name: Tesla K40c, pci bus id: 0000:8a:00.0, compute capability: 3.5)
+2021-04-01 20:18:26.428724: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561a3dcc2450 executing computations on platform CUDA. Devices:
+2021-04-01 20:18:26.428767: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:18:26.428779: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:18:26.428788: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:18:26.428801: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (3): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:18:26.428809: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (4): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:18:26.428817: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (5): Tesla K40c, Compute Capability 3.5
+Traceback (most recent call last):
+  File "main.py", line 282, in <module>
+    model = autoencoder('/home/him030107/pix2pix', img_layer = 3, layers = 4, latent = 256)
+  File "main.py", line 46, in __init__
+    self.Enc, self.Dec, self.disc = self.model_load()
+  File "main.py", line 274, in model_load
+    styleE = self.encoder()
+  File "main.py", line 133, in encoder
+    x = conv2D(x, filters = filter, kernel_size = (1,1))
+  File "main.py", line 25, in conv2D
+    kernel_initializer = 'he_normal', bias_initializer = 'zeros')(layer)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 817, in __call__
+    self._maybe_build(inputs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 2141, in _maybe_build
+    self.build(input_shapes)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/layers/convolutional.py", line 165, in build
+    dtype=self.dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 522, in add_weight
+    aggregation=aggregation)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/training/tracking/base.py", line 744, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer_utils.py", line 139, in make_variable
+    shape=variable_shape if variable_shape else None)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 258, in __call__
+    return cls._variable_v1_call(*args, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 219, in _variable_v1_call
+    shape=shape)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 197, in <lambda>
+    previous_getter = lambda **kwargs: default_variable_creator(None, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variable_scope.py", line 2507, in default_variable_creator
+    shape=shape)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 262, in __call__
+    return super(VariableMetaclass, cls).__call__(*args, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py", line 1406, in __init__
+    distribute_strategy=distribute_strategy)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py", line 1537, in _init_from_args
+    initial_value() if init_from_fn else initial_value,
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer_utils.py", line 119, in <lambda>
+    init_val = lambda: initializer(shape, dtype=dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops_v2.py", line 431, in __call__
+    return self._random_generator.truncated_normal(shape, 0.0, stddev, dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops_v2.py", line 809, in truncated_normal
+    shape=shape, mean=mean, stddev=stddev, dtype=dtype, seed=self.seed)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/random_ops.py", line 175, in truncated_normal
+    shape_tensor, dtype, seed=seed1, seed2=seed2)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/gen_random_ops.py", line 1006, in truncated_normal
+    _six.raise_from(_core._status_to_exception(e.code, message), None)
+  File "<string>", line 3, in raise_from
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Value for attr 'T' of float is not in the list of allowed values: int32, int64
+	; NodeDef: {{node TruncatedNormal}}; Op<name=TruncatedNormal; signature=shape:T -> output:dtype; attr=seed:int,default=0; attr=seed2:int,default=0; attr=dtype:type,allowed=[DT_HALF, DT_BFLOAT16, DT_FLOAT, DT_DOUBLE]; attr=T:type,allowed=[DT_INT32, DT_INT64]; is_stateful=true> [Op:TruncatedNormal]
+Using TensorFlow backend.
+2021-04-01 20:19:41.800458: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-04-01 20:19:41.970806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:19:41.972043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:19:41.973299: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:19:41.974499: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:19:41.975666: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:19:41.976832: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:19:41.977061: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:19:41.978632: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:19:41.979788: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:19:41.980095: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:19:41.981794: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:19:41.983107: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:19:41.987238: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:19:42.001169: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:19:42.001557: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2021-04-01 20:19:42.011125: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2800150000 Hz
+2021-04-01 20:19:42.013896: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a3bf908bb0 executing computations on platform Host. Devices:
+2021-04-01 20:19:42.013942: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2021-04-01 20:19:42.745987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:19:42.747113: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:19:42.748131: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:19:42.749205: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:19:42.750285: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:19:42.751369: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:19:42.751424: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:19:42.751448: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:19:42.751471: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:19:42.751494: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:19:42.751516: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:19:42.751538: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:19:42.751561: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:19:42.764323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:19:42.764374: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:19:42.771271: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-01 20:19:42.771298: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 1 2 3 4 5 
+2021-04-01 20:19:42.771310: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N Y Y Y N N 
+2021-04-01 20:19:42.771319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 1:   Y N Y Y N N 
+2021-04-01 20:19:42.771328: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 2:   Y Y N Y N N 
+2021-04-01 20:19:42.771336: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 3:   Y Y Y N N N 
+2021-04-01 20:19:42.771344: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 4:   N N N N N Y 
+2021-04-01 20:19:42.771353: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 5:   N N N N Y N 
+2021-04-01 20:19:42.780347: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11531 MB memory) -> physical GPU (device: 0, name: Tesla K40c, pci bus id: 0000:04:00.0, compute capability: 3.5)
+2021-04-01 20:19:42.782838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11531 MB memory) -> physical GPU (device: 1, name: Tesla K40c, pci bus id: 0000:05:00.0, compute capability: 3.5)
+2021-04-01 20:19:42.785227: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 10122 MB memory) -> physical GPU (device: 2, name: Tesla K40c, pci bus id: 0000:08:00.0, compute capability: 3.5)
+2021-04-01 20:19:42.787721: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11531 MB memory) -> physical GPU (device: 3, name: Tesla K40c, pci bus id: 0000:09:00.0, compute capability: 3.5)
+2021-04-01 20:19:42.790147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:4 with 11531 MB memory) -> physical GPU (device: 4, name: Tesla K40c, pci bus id: 0000:89:00.0, compute capability: 3.5)
+2021-04-01 20:19:42.792509: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:5 with 11531 MB memory) -> physical GPU (device: 5, name: Tesla K40c, pci bus id: 0000:8a:00.0, compute capability: 3.5)
+2021-04-01 20:19:42.794976: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a3c1837040 executing computations on platform CUDA. Devices:
+2021-04-01 20:19:42.794999: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:19:42.795009: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:19:42.795018: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:19:42.795026: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (3): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:19:42.795035: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (4): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:19:42.795043: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (5): Tesla K40c, Compute Capability 3.5
+Traceback (most recent call last):
+  File "main.py", line 282, in <module>
+    model = autoencoder('/home/him030107/pix2pix', img_layer = 3, layers = 4, latent = 256)
+  File "main.py", line 46, in __init__
+    self.Enc, self.Dec, self.disc = self.model_load()
+  File "main.py", line 274, in model_load
+    styleE = self.encoder()
+  File "main.py", line 133, in encoder
+    x = conv2D(x, filters = filter, kernel_size = (1,1))
+  File "main.py", line 25, in conv2D
+    kernel_initializer = 'he_normal', bias_initializer = 'zeros')(layer)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 817, in __call__
+    self._maybe_build(inputs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 2141, in _maybe_build
+    self.build(input_shapes)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/layers/convolutional.py", line 165, in build
+    dtype=self.dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 522, in add_weight
+    aggregation=aggregation)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/training/tracking/base.py", line 744, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer_utils.py", line 139, in make_variable
+    shape=variable_shape if variable_shape else None)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 258, in __call__
+    return cls._variable_v1_call(*args, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 219, in _variable_v1_call
+    shape=shape)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 197, in <lambda>
+    previous_getter = lambda **kwargs: default_variable_creator(None, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variable_scope.py", line 2507, in default_variable_creator
+    shape=shape)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 262, in __call__
+    return super(VariableMetaclass, cls).__call__(*args, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py", line 1406, in __init__
+    distribute_strategy=distribute_strategy)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py", line 1537, in _init_from_args
+    initial_value() if init_from_fn else initial_value,
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer_utils.py", line 119, in <lambda>
+    init_val = lambda: initializer(shape, dtype=dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops_v2.py", line 431, in __call__
+    return self._random_generator.truncated_normal(shape, 0.0, stddev, dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops_v2.py", line 809, in truncated_normal
+    shape=shape, mean=mean, stddev=stddev, dtype=dtype, seed=self.seed)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/random_ops.py", line 175, in truncated_normal
+    shape_tensor, dtype, seed=seed1, seed2=seed2)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/gen_random_ops.py", line 1006, in truncated_normal
+    _six.raise_from(_core._status_to_exception(e.code, message), None)
+  File "<string>", line 3, in raise_from
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Value for attr 'T' of float is not in the list of allowed values: int32, int64
+	; NodeDef: {{node TruncatedNormal}}; Op<name=TruncatedNormal; signature=shape:T -> output:dtype; attr=seed:int,default=0; attr=seed2:int,default=0; attr=dtype:type,allowed=[DT_HALF, DT_BFLOAT16, DT_FLOAT, DT_DOUBLE]; attr=T:type,allowed=[DT_INT32, DT_INT64]; is_stateful=true> [Op:TruncatedNormal]
+Using TensorFlow backend.
+2021-04-01 20:22:02.466739: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-04-01 20:22:02.637222: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:22:02.638457: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:22:02.639582: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:22:02.640742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:22:02.641906: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:22:02.643078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:22:02.643309: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:22:02.644812: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:22:02.645941: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:22:02.646223: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:22:02.647940: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:22:02.649223: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:22:02.653178: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:22:02.667015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:22:02.667391: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2021-04-01 20:22:02.677083: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2800150000 Hz
+2021-04-01 20:22:02.679613: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5580dd6f7a60 executing computations on platform Host. Devices:
+2021-04-01 20:22:02.679652: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2021-04-01 20:22:03.410032: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-01 20:22:03.411175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-01 20:22:03.412231: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-01 20:22:03.413306: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-01 20:22:03.414407: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-01 20:22:03.415511: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-01 20:22:03.415581: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:22:03.415607: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-01 20:22:03.415630: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-01 20:22:03.415653: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-01 20:22:03.415676: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-01 20:22:03.415699: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-01 20:22:03.415722: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-01 20:22:03.428719: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-01 20:22:03.428778: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-01 20:22:03.435665: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-01 20:22:03.435688: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 1 2 3 4 5 
+2021-04-01 20:22:03.435706: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N Y Y Y N N 
+2021-04-01 20:22:03.435716: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 1:   Y N Y Y N N 
+2021-04-01 20:22:03.435725: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 2:   Y Y N Y N N 
+2021-04-01 20:22:03.435733: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 3:   Y Y Y N N N 
+2021-04-01 20:22:03.435742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 4:   N N N N N Y 
+2021-04-01 20:22:03.435751: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 5:   N N N N Y N 
+2021-04-01 20:22:03.444570: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11531 MB memory) -> physical GPU (device: 0, name: Tesla K40c, pci bus id: 0000:04:00.0, compute capability: 3.5)
+2021-04-01 20:22:03.447227: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11531 MB memory) -> physical GPU (device: 1, name: Tesla K40c, pci bus id: 0000:05:00.0, compute capability: 3.5)
+2021-04-01 20:22:03.449602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 10122 MB memory) -> physical GPU (device: 2, name: Tesla K40c, pci bus id: 0000:08:00.0, compute capability: 3.5)
+2021-04-01 20:22:03.452028: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11531 MB memory) -> physical GPU (device: 3, name: Tesla K40c, pci bus id: 0000:09:00.0, compute capability: 3.5)
+2021-04-01 20:22:03.454416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:4 with 11531 MB memory) -> physical GPU (device: 4, name: Tesla K40c, pci bus id: 0000:89:00.0, compute capability: 3.5)
+2021-04-01 20:22:03.456889: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:5 with 11531 MB memory) -> physical GPU (device: 5, name: Tesla K40c, pci bus id: 0000:8a:00.0, compute capability: 3.5)
+2021-04-01 20:22:03.459335: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5580df625890 executing computations on platform CUDA. Devices:
+2021-04-01 20:22:03.459358: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:22:03.459382: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:22:03.459392: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:22:03.459401: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (3): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:22:03.459410: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (4): Tesla K40c, Compute Capability 3.5
+2021-04-01 20:22:03.459418: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (5): Tesla K40c, Compute Capability 3.5
+Traceback (most recent call last):
+  File "main.py", line 282, in <module>
+    model = autoencoder('/home/him030107/pix2pix', img_layer = 3, layers = 4, latent = 256)
+  File "main.py", line 46, in __init__
+    self.Enc, self.Dec, self.disc = self.model_load()
+  File "main.py", line 274, in model_load
+    styleE = self.encoder()
+  File "main.py", line 133, in encoder
+    x = conv2D(x, filters = filter, kernel_size = (1,1))
+  File "main.py", line 25, in conv2D
+    kernel_initializer = 'he_normal', bias_initializer = 'zeros')(layer)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 817, in __call__
+    self._maybe_build(inputs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 2141, in _maybe_build
+    self.build(input_shapes)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/layers/convolutional.py", line 165, in build
+    dtype=self.dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer.py", line 522, in add_weight
+    aggregation=aggregation)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/training/tracking/base.py", line 744, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer_utils.py", line 139, in make_variable
+    shape=variable_shape if variable_shape else None)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 258, in __call__
+    return cls._variable_v1_call(*args, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 219, in _variable_v1_call
+    shape=shape)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 197, in <lambda>
+    previous_getter = lambda **kwargs: default_variable_creator(None, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variable_scope.py", line 2507, in default_variable_creator
+    shape=shape)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/variables.py", line 262, in __call__
+    return super(VariableMetaclass, cls).__call__(*args, **kwargs)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py", line 1406, in __init__
+    distribute_strategy=distribute_strategy)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py", line 1537, in _init_from_args
+    initial_value() if init_from_fn else initial_value,
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/base_layer_utils.py", line 119, in <lambda>
+    init_val = lambda: initializer(shape, dtype=dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops_v2.py", line 431, in __call__
+    return self._random_generator.truncated_normal(shape, 0.0, stddev, dtype)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/init_ops_v2.py", line 809, in truncated_normal
+    shape=shape, mean=mean, stddev=stddev, dtype=dtype, seed=self.seed)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/random_ops.py", line 175, in truncated_normal
+    shape_tensor, dtype, seed=seed1, seed2=seed2)
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/ops/gen_random_ops.py", line 1006, in truncated_normal
+    _six.raise_from(_core._status_to_exception(e.code, message), None)
+  File "<string>", line 3, in raise_from
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Value for attr 'T' of float is not in the list of allowed values: int32, int64
+	; NodeDef: {{node TruncatedNormal}}; Op<name=TruncatedNormal; signature=shape:T -> output:dtype; attr=seed:int,default=0; attr=seed2:int,default=0; attr=dtype:type,allowed=[DT_HALF, DT_BFLOAT16, DT_FLOAT, DT_DOUBLE]; attr=T:type,allowed=[DT_INT32, DT_INT64]; is_stateful=true> [Op:TruncatedNormal]
+2021-04-15 18:43:29.374431: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-04-15 18:43:29.610047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-15 18:43:29.611381: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-15 18:43:29.612671: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-15 18:43:29.614046: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-15 18:43:29.615872: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-15 18:43:29.617148: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-15 18:43:29.652353: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-15 18:43:29.843664: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-15 18:43:29.964949: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-15 18:43:30.022218: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-15 18:43:30.232941: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-15 18:43:30.352165: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-15 18:43:30.712881: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-15 18:43:30.728056: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-15 18:43:30.744039: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2021-04-15 18:43:30.935467: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2799995000 Hz
+2021-04-15 18:43:30.939606: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f795830f20 executing computations on platform Host. Devices:
+2021-04-15 18:43:30.940068: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2021-04-15 18:43:31.745500: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:04:00.0
+2021-04-15 18:43:31.746744: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:05:00.0
+2021-04-15 18:43:31.747940: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:08:00.0
+2021-04-15 18:43:31.749153: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:09:00.0
+2021-04-15 18:43:31.750383: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 4 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:89:00.0
+2021-04-15 18:43:31.751636: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 5 with properties: 
+name: Tesla K40c major: 3 minor: 5 memoryClockRate(GHz): 0.745
+pciBusID: 0000:8a:00.0
+2021-04-15 18:43:31.751720: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-15 18:43:31.751751: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-15 18:43:31.751778: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-15 18:43:31.751806: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-15 18:43:31.751836: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-15 18:43:31.751863: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-15 18:43:31.751893: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-15 18:43:31.765747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+2021-04-15 18:43:31.789993: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-15 18:43:31.816516: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-15 18:43:31.816552: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 1 2 3 4 5 
+2021-04-15 18:43:31.816569: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N Y Y Y N N 
+2021-04-15 18:43:31.816579: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 1:   Y N Y Y N N 
+2021-04-15 18:43:31.816589: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 2:   Y Y N Y N N 
+2021-04-15 18:43:31.816599: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 3:   Y Y Y N N N 
+2021-04-15 18:43:31.816608: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 4:   N N N N N Y 
+2021-04-15 18:43:31.816619: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 5:   N N N N Y N 
+2021-04-15 18:43:31.826194: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11531 MB memory) -> physical GPU (device: 0, name: Tesla K40c, pci bus id: 0000:04:00.0, compute capability: 3.5)
+2021-04-15 18:43:31.829521: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11531 MB memory) -> physical GPU (device: 1, name: Tesla K40c, pci bus id: 0000:05:00.0, compute capability: 3.5)
+2021-04-15 18:43:31.832137: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 11531 MB memory) -> physical GPU (device: 2, name: Tesla K40c, pci bus id: 0000:08:00.0, compute capability: 3.5)
+2021-04-15 18:43:31.834831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11531 MB memory) -> physical GPU (device: 3, name: Tesla K40c, pci bus id: 0000:09:00.0, compute capability: 3.5)
+2021-04-15 18:43:31.837449: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:4 with 11531 MB memory) -> physical GPU (device: 4, name: Tesla K40c, pci bus id: 0000:89:00.0, compute capability: 3.5)
+2021-04-15 18:43:31.840111: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:5 with 11531 MB memory) -> physical GPU (device: 5, name: Tesla K40c, pci bus id: 0000:8a:00.0, compute capability: 3.5)
+2021-04-15 18:43:31.843723: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f79923a6d0 executing computations on platform CUDA. Devices:
+2021-04-15 18:43:31.843754: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla K40c, Compute Capability 3.5
+2021-04-15 18:43:31.843768: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): Tesla K40c, Compute Capability 3.5
+2021-04-15 18:43:31.843777: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): Tesla K40c, Compute Capability 3.5
+2021-04-15 18:43:31.843786: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (3): Tesla K40c, Compute Capability 3.5
+2021-04-15 18:43:31.843795: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (4): Tesla K40c, Compute Capability 3.5
+2021-04-15 18:43:31.843805: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (5): Tesla K40c, Compute Capability 3.5
+Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5
+    8192/80134624 [..............................] - ETA: 1s   73728/80134624 [..............................] - ETA: 55s  327680/80134624 [..............................] - ETA: 24s  565248/80134624 [..............................] - ETA: 21s  753664/80134624 [..............................] - ETA: 21s  958464/80134624 [..............................] - ETA: 21s 1081344/80134624 [..............................] - ETA: 22s 1286144/80134624 [..............................] - ETA: 22s 1507328/80134624 [..............................] - ETA: 21s 1654784/80134624 [..............................] - ETA: 22s 1875968/80134624 [..............................] - ETA: 21s 2088960/80134624 [..............................] - ETA: 21s 2269184/80134624 [..............................] - ETA: 21s 2490368/80134624 [..............................] - ETA: 21s 2711552/80134624 [>.............................] - ETA: 20s 2908160/80134624 [>.............................] - ETA: 21s 3137536/80134624 [>.............................] - ETA: 20s 3383296/80134624 [>.............................] - ETA: 20s 3547136/80134624 [>.............................] - ETA: 20s 3809280/80134624 [>.............................] - ETA: 20s 4071424/80134624 [>.............................] - ETA: 19s 4268032/80134624 [>.............................] - ETA: 19s 4546560/80134624 [>.............................] - ETA: 19s 4825088/80134624 [>.............................] - ETA: 19s 5021696/80134624 [>.............................] - ETA: 19s 5283840/80134624 [>.............................] - ETA: 18s 5529600/80134624 [=>............................] - ETA: 18s 5775360/80134624 [=>............................] - ETA: 18s 6053888/80134624 [=>............................] - ETA: 18s 6348800/80134624 [=>............................] - ETA: 17s 6578176/80134624 [=>............................] - ETA: 17s 6856704/80134624 [=>............................] - ETA: 17s 7151616/80134624 [=>............................] - ETA: 17s 7430144/80134624 [=>............................] - ETA: 17s 7725056/80134624 [=>............................] - ETA: 16s 8036352/80134624 [==>...........................] - ETA: 16s 8331264/80134624 [==>...........................] - ETA: 16s 8642560/80134624 [==>...........................] - ETA: 16s 8986624/80134624 [==>...........................] - ETA: 16s 9265152/80134624 [==>...........................] - ETA: 15s 9592832/80134624 [==>...........................] - ETA: 15s 9936896/80134624 [==>...........................] - ETA: 15s10248192/80134624 [==>...........................] - ETA: 15s10592256/80134624 [==>...........................] - ETA: 15s10952704/80134624 [===>..........................] - ETA: 14s11264000/80134624 [===>..........................] - ETA: 14s11608064/80134624 [===>..........................] - ETA: 14s11984896/80134624 [===>..........................] - ETA: 14s12345344/80134624 [===>..........................] - ETA: 14s12656640/80134624 [===>..........................] - ETA: 13s12967936/80134624 [===>..........................] - ETA: 13s13475840/80134624 [====>.........................] - ETA: 13s13803520/80134624 [====>.........................] - ETA: 13s14213120/80134624 [====>.........................] - ETA: 13s14565376/80134624 [====>.........................] - ETA: 12s14934016/80134624 [====>.........................] - ETA: 12s15376384/80134624 [====>.........................] - ETA: 12s15835136/80134624 [====>.........................] - ETA: 12s16162816/80134624 [=====>........................] - ETA: 12s16605184/80134624 [=====>........................] - ETA: 11s16801792/80134624 [=====>........................] - ETA: 11s17326080/80134624 [=====>........................] - ETA: 11s17899520/80134624 [=====>........................] - ETA: 11s18104320/80134624 [=====>........................] - ETA: 11s18538496/80134624 [=====>........................] - ETA: 11s19062784/80134624 [======>.......................] - ETA: 10s19472384/80134624 [======>.......................] - ETA: 10s19898368/80134624 [======>.......................] - ETA: 10s20422656/80134624 [======>.......................] - ETA: 10s20946944/80134624 [======>.......................] - ETA: 10s21307392/80134624 [======>.......................] - ETA: 10s21880832/80134624 [=======>......................] - ETA: 9s 22421504/80134624 [=======>......................] - ETA: 9s22831104/80134624 [=======>......................] - ETA: 9s23388160/80134624 [=======>......................] - ETA: 9s23953408/80134624 [=======>......................] - ETA: 9s24387584/80134624 [========>.....................] - ETA: 9s24961024/80134624 [========>.....................] - ETA: 8s25567232/80134624 [========>.....................] - ETA: 8s26042368/80134624 [========>.....................] - ETA: 8s26533888/80134624 [========>.....................] - ETA: 8s27246592/80134624 [=========>....................] - ETA: 8s27762688/80134624 [=========>....................] - ETA: 8s28368896/80134624 [=========>....................] - ETA: 7s29024256/80134624 [=========>....................] - ETA: 7s29614080/80134624 [==========>...................] - ETA: 7s29859840/80134624 [==========>...................] - ETA: 7s30941184/80134624 [==========>...................] - ETA: 7s31350784/80134624 [==========>...................] - ETA: 7s31956992/80134624 [==========>...................] - ETA: 7s32530432/80134624 [===========>..................] - ETA: 6s33153024/80134624 [===========>..................] - ETA: 6s33726464/80134624 [===========>..................] - ETA: 6s34349056/80134624 [===========>..................] - ETA: 6s34955264/80134624 [============>.................] - ETA: 6s35536896/80134624 [============>.................] - ETA: 6s36167680/80134624 [============>.................] - ETA: 6s36773888/80134624 [============>.................] - ETA: 5s37429248/80134624 [=============>................] - ETA: 5s38051840/80134624 [=============>................] - ETA: 5s38715392/80134624 [=============>................] - ETA: 5s39321600/80134624 [=============>................] - ETA: 5s39976960/80134624 [=============>................] - ETA: 5s40599552/80134624 [==============>...............] - ETA: 5s41271296/80134624 [==============>...............] - ETA: 5s41926656/80134624 [==============>...............] - ETA: 4s42598400/80134624 [==============>...............] - ETA: 4s43253760/80134624 [===============>..............] - ETA: 4s43909120/80134624 [===============>..............] - ETA: 4s44613632/80134624 [===============>..............] - ETA: 4s45318144/80134624 [===============>..............] - ETA: 4s45989888/80134624 [================>.............] - ETA: 4s46694400/80134624 [================>.............] - ETA: 4s47382528/80134624 [================>.............] - ETA: 4s48070656/80134624 [================>.............] - ETA: 3s48775168/80134624 [=================>............] - ETA: 3s49479680/80134624 [=================>............] - ETA: 3s50184192/80134624 [=================>............] - ETA: 3s50872320/80134624 [==================>...........] - ETA: 3s51576832/80134624 [==================>...........] - ETA: 3s52215808/80134624 [==================>...........] - ETA: 3s52969472/80134624 [==================>...........] - ETA: 3s53657600/80134624 [===================>..........] - ETA: 3s54411264/80134624 [===================>..........] - ETA: 3s55115776/80134624 [===================>..........] - ETA: 2s55803904/80134624 [===================>..........] - ETA: 2s56541184/80134624 [====================>.........] - ETA: 2s57278464/80134624 [====================>.........] - ETA: 2s57786368/80134624 [====================>.........] - ETA: 2s58490880/80134624 [====================>.........] - ETA: 2s59260928/80134624 [=====================>........] - ETA: 2s59981824/80134624 [=====================>........] - ETA: 2s60751872/80134624 [=====================>........] - ETA: 2s61472768/80134624 [======================>.......] - ETA: 2s62234624/80134624 [======================>.......] - ETA: 2s62963712/80134624 [======================>.......] - ETA: 1s63733760/80134624 [======================>.......] - ETA: 1s64471040/80134624 [=======================>......] - ETA: 1s65257472/80134624 [=======================>......] - ETA: 1s65978368/80134624 [=======================>......] - ETA: 1s66732032/80134624 [=======================>......] - ETA: 1s67502080/80134624 [========================>.....] - ETA: 1s68263936/80134624 [========================>.....] - ETA: 1s69025792/80134624 [========================>.....] - ETA: 1s69812224/80134624 [=========================>....] - ETA: 1s70598656/80134624 [=========================>....] - ETA: 1s71376896/80134624 [=========================>....] - ETA: 0s72138752/80134624 [==========================>...] - ETA: 0s72925184/80134624 [==========================>...] - ETA: 0s73695232/80134624 [==========================>...] - ETA: 0s74481664/80134624 [==========================>...] - ETA: 0s75268096/80134624 [===========================>..] - ETA: 0s76038144/80134624 [===========================>..] - ETA: 0s76832768/80134624 [===========================>..] - ETA: 0s77594624/80134624 [============================>.] - ETA: 0s78413824/80134624 [============================>.] - ETA: 0s79183872/80134624 [============================>.] - ETA: 0s80003072/80134624 [============================>.] - ETA: 0s80142336/80134624 [==============================] - 8s 0us/step
+[<tensorflow.python.keras.engine.training.Model object at 0x7f277bc99650>, <tensorflow.python.keras.engine.training.Model object at 0x7f277ba889d0>, <tensorflow.python.keras.engine.training.Model object at 0x7f277b49ae50>, <tensorflow.python.keras.engine.training.Model object at 0x7f277ad6ac10>]
+1079
+  0%|          | 0/43160 [00:00<?, ?it/s]0
+2021-04-15 18:43:53.545601: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-15 18:43:57.951551: W tensorflow/stream_executor/cuda/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+  0%|          | 1/43160 [00:06<81:31:16,  6.80s/it]2021-04-15 18:44:02.405781: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+  0%|          | 2/43160 [00:17<94:38:26,  7.89s/it]  0%|          | 3/43160 [00:20<79:06:47,  6.60s/it]  0%|          | 4/43160 [00:24<68:15:43,  5.69s/it]  0%|          | 5/43160 [00:27<60:40:30,  5.06s/it]  0%|          | 6/43160 [00:31<55:19:25,  4.62s/it]  0%|          | 7/43160 [00:35<51:41:00,  4.31s/it]  0%|          | 8/43160 [00:38<49:14:44,  4.11s/it]  0%|          | 9/43160 [00:42<47:28:16,  3.96s/it]  0%|          | 10/43160 [00:46<46:21:18,  3.87s/it]  0%|          | 11/43160 [00:49<45:19:52,  3.78s/it]  0%|          | 12/43160 [00:53<44:25:32,  3.71s/it]  0%|          | 13/43160 [00:56<43:43:14,  3.65s/it]  0%|          | 14/43160 [01:00<43:21:32,  3.62s/it]  0%|          | 15/43160 [01:03<42:41:11,  3.56s/it]  0%|          | 16/43160 [01:07<42:44:15,  3.57s/it]  0%|          | 17/43160 [01:10<42:24:46,  3.54s/it]  0%|          | 18/43160 [01:14<42:34:01,  3.55s/it]  0%|          | 19/43160 [01:17<42:28:03,  3.54s/it]  0%|          | 20/43160 [01:21<42:17:26,  3.53s/it]  0%|          | 21/43160 [01:24<41:58:23,  3.50s/it]  0%|          | 22/43160 [01:28<41:56:36,  3.50s/it]  0%|          | 23/43160 [01:31<41:47:00,  3.49s/it]  0%|          | 24/43160 [01:35<41:56:52,  3.50s/it]  0%|          | 25/43160 [01:38<42:08:25,  3.52s/it]  0%|          | 26/43160 [01:42<42:12:11,  3.52s/it]  0%|          | 27/43160 [01:45<42:38:10,  3.56s/it]  0%|          | 28/43160 [01:49<42:25:40,  3.54s/it]  0%|          | 29/43160 [01:52<42:18:42,  3.53s/it]  0%|          | 30/43160 [01:56<42:16:25,  3.53s/it]  0%|          | 31/43160 [02:00<42:13:19,  3.52s/it]  0%|          | 32/43160 [02:03<42:06:38,  3.52s/it]  0%|          | 33/43160 [02:07<42:02:50,  3.51s/it]Traceback (most recent call last):
+  File "main.py", line 387, in <module>
+    model.train(epoch = 40)
+  File "main.py", line 213, in train
+    for i, (a_full, a_hint, b_full, b_hint) in enumerate(self.datagenerator):
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/utils/data_utils.py", line 405, in __iter__
+    for item in (self[i] for i in range(len(self))):
+  File "/home/him030107/anaconda3/lib/python3.7/site-packages/tensorflow_core/python/keras/utils/data_utils.py", line 405, in <genexpr>
+    for item in (self[i] for i in range(len(self))):
+  File "main.py", line 81, in __getitem__
+    a_full, a_hint = self.__data_generation__(self.indexes[index])
+  File "main.py", line 51, in __data_generation__
+    return getitem(random.choice(self.indexes))
+NameError: name 'getitem' is not defined
+  0%|          | 33/43160 [02:10<47:21:39,  3.95s/it]
